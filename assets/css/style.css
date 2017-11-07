@@ -1,0 +1,94 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-color: #f7f9f9;
+	height: auto;
+	width: 100%;	
+}
+
+img
+{
+	height: 70px;
+	width: 120px;
+	margin-left: 45%;
+}
+
+section
+{
+	background-color: #0074c1;
+	height: 900px;
+	width: 100%;
+}
+
+#box1
+{
+	padding-left: 80px;
+	padding-top: 50px;
+}
+
+#secAddList
+{
+	width: 300px;
+	padding: 20px;
+	height: auto;
+	background-color: #e1e6e8;
+	border-radius: 0.3em;
+	border: 1px solid red;
+	display: inline-block;
+	/*clear: both;*/
+}
+
+.inputList
+{
+	width: auto;
+	background-color: white;
+	border: none;
+	height: 20px;
+	font-size: 15px;
+	border: 1px solid green;
+}
+
+.addNameList
+{
+	border: 1px solid yellow;
+	height: auto;
+}
+
+.secBtnAddList
+{
+	border: 1px solid purple;
+	margin-top: 30px;
+}
+
+
+#btnAddList
+{
+	height: 30px;
+	width: 90px;
+	background-color: #26a034;
+	display: block;
+	font-size: 18px;
+	color: white;
+	border-radius: 0.3em;
+	border: none;
+}
+
+/*estilo del nuevo contenedor de la lista*/
+.newList
+{
+	width: 300px;
+	padding: 20px;
+	height: auto;
+	background-color: #e1e6e8;
+	border-radius: 0.3em;
+	border: 1px solid red;
+/*	clear: both;*/
+	display: inline-block;
+	border: 1px solid green;
+}

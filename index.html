@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Trello</title>
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="icon" type="image0png" href="assets/img/icomoon/style.css">
+
+</head>
+<body>
+	<header>
+		<img src="assets/img/header-logo-blue.svg" alt="logo-trello">
+	</header>
+
+	<!-- seccion de targetas -->
+	<section id="box1">
+		
+		<div class="secAddCard">
+		
+			<textarea id="card" placeholder="Añade una tarjeta"></textarea>
+			
+			<div id="btnCard" class="hidden">
+				<button id="saveTheCard">Guardar</button>
+
+				<span id="Close2" class="iCancel"></span>
+			</div>
+
+		</div>
+
+
+	<!-- seccion de lista -->
+		<div id="secAddList">
+			
+			<!-- <div class="classInput"> -->
+			<input type="text" class="inputList" id="inputAddList" placeholder="Añade una lista"><!-- </div> -->
+			
+			<div class="hidden" id="inputAddList"></div>
+
+			<button id="btnAddList">Guardar</button>
+
+			<span id="close1" class="iCancel"></span>
+
+		</div>
+		
+		<div class="newList" id="newList">
+			
+		</div>
+	</section>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
