@@ -1,0 +1,245 @@
+body
+{
+	background: #3881BA;
+	padding: 0px;
+	margin:0px;
+}
+
+nav
+{
+	background: #1BA1E2;
+	display: inline-block;
+	width: 1300px;
+	list-style: none;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	
+}
+
+/*Estilo caja tablero*/
+div.box1 
+{
+	background: #D5DCFF;
+	width: 100px;
+	margin-top: 10px;
+	margin-left:10px;
+	display: inline-block;
+	/*border: 3px solid green;*/ /*ayuda visual*/
+}
+
+ul
+{
+	padding: 1px;
+	margin:0px;
+}
+
+ul li
+{
+	display: inline-block;
+}
+
+li p
+{
+	padding-bottom: 10px;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+/*Estilo caja busqueda*/
+div.box2
+{
+	background: #D5DCFF;
+	width: 220px;
+	margin-top: 0px;
+	margin-left:20px;
+	display: inline-block;
+	/*border: 3px solid yellow;*/ /*ayuda visual*/
+}
+
+.box ul li
+{
+	display: inline-block;
+}
+
+.list1
+{
+	padding-top: 11px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 40px;
+	width: 192px;
+	height: 19px;
+}
+
+/*Estilo Logo trello*/
+ .imagen
+ {
+ 	width: 135px;
+ 	height: 30px;
+ 	padding-top: 8px;
+ 	margin-left: 250px;
+ }
+
+.fa-trello
+{
+	color:#fff;
+	padding-left: 10px;
+}
+
+.caja1
+{
+	margin-top:0px;
+	padding-top: 10px;
+	color: #fff;
+	/*border: 3px solid purple;*/ /*ayuda visual*/
+}
+
+#searchTab
+{
+	background: #D5DCFF;
+	border:none;
+}
+
+.fa-search
+{
+	color: #fff;
+}
+
+.list2
+{
+	color: #fff;
+	margin-left: 20px;
+}
+
+.fa-star-o
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.fa-lock
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/*estilo boton anadir lista*/
+#listButton
+{
+	margin-left: 40px;
+	margin-top: 30px;
+	background-color: #1BA1E2;
+	border-radius: 2px;
+	height: 27px;
+	width: auto;
+	border: none;
+	color: white;
+}
+
+/*Estilo input luego del click*/
+.inputList
+{
+	margin-left: 8px;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+/*Estilo boton guardar*/
+.botonCreado
+{
+	display: block;
+	margin-left: 8px;
+	margin-bottom: 5px;
+	background: #00D660;
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	/*border: 3px solid purple;*/ /*ayuda visual*/
+}
+
+.titulospan  
+{
+	margin-left: 2px;
+	display: inline-block;
+}
+
+/*Estilo boton anadir*/
+.button
+{
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-bottom: 3px;
+	display: block;
+	background: #00D660;
+	border: none;
+	border-radius: 2px;
+	padding: 5px;
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+    top: 9px;
+}
+
+/*Estilo de formulario que se activa al hacer click*/
+#card
+{
+	display: inline-block;
+	background: #C6DDE0;
+	width: 25%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+
+/*Estilo de formulario que guarda la lista*/
+.cont2
+{
+	margin-left: 40px;
+	position: relative;
+    border-radius: 4px;
+    padding: 20px 10px;
+	background: #C6DDE0;
+    display: inline-block;
+    width: 300px;
+    bottom: 51px;
+    left: 300px;;
+}
+
+/*Estilo de formulario que guarda la tarjeta*/
+.cont3
+{
+	display: inline-block;
+	position: relative;
+	background: #C6DDE0;
+	width: 200px;
+	margin-left: 20px;
+	border-radius: 4px;
+	position: relative;
+	left: 650px;
+	bottom: 146px;
+	padding-top: 20px;
+	/*border: 3px solid purple;*/   /*ayuda visual*/
+}
+
+/*texto de formulario de lista*/
+.titulospan  
+{
+	position: relative;
+	bottom: 13px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/*estilo textarea de tarjeta */
+.textarea 
+{
+	margin-left: 10px;
+	/*border: 3px solid purple;*/
+}
+
